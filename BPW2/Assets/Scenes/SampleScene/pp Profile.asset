@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: pp Profile
   m_EditorClassIdentifier: 
   components:
-  - {fileID: 8301123249731089024}
+  - {fileID: 8656137962377721098}
   - {fileID: 6722436735538539393}
   - {fileID: 6942014553816072781}
 --- !u!114 &6722436735538539393
@@ -90,7 +90,7 @@ MonoBehaviour:
   scale:
     m_OverrideState: 0
     m_Value: 1
---- !u!114 &8301123249731089024
+--- !u!114 &8656137962377721098
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,19 +107,19 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
   threshold:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0.9
   intensity:
-    m_OverrideState: 1
-    m_Value: 16.92
+    m_OverrideState: 0
+    m_Value: 0
   scatter:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0.7
   clamp:
     m_OverrideState: 0
     m_Value: 65472
   tint:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
   highQualityFiltering:
     m_OverrideState: 0
