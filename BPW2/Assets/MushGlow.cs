@@ -14,6 +14,8 @@ public class MushGlow2 : MonoBehaviour
     public ParticleSystem Spore;
     public AudioSource ShroomChime;
     public GameObject Sigil;
+    public Color FogColour;
+    public GameObject EndSpot;
     // Start is called before the first frame update
     void Start()
     {
@@ -53,6 +55,8 @@ public class MushGlow2 : MonoBehaviour
             Spore.GetComponent<ParticleSystem>().Play();
             ShroomChime.PlayOneShot(ShroomChime.clip);
             Sigil.SetActive(true);
+            RenderSettings.fogColor = FogColour;
+            EndSpot.SetActive(true);
             Debug.Log("object Activated");
         }
     }

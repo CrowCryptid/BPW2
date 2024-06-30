@@ -13,6 +13,7 @@ public class MushGlow : MonoBehaviour
     public GameObject MushLight;
     public ParticleSystem Spore;
     public AudioSource ShroomChime;
+    public GameObject Sigil;
     // Start is called before the first frame update
     void Start()
     {
@@ -51,6 +52,7 @@ public class MushGlow : MonoBehaviour
             MushLight.SetActive(true);
             Spore.GetComponent<ParticleSystem>().Play();
             ShroomChime.PlayOneShot(ShroomChime.clip);
+            Sigil.SetActive(true);
             Debug.Log("object Activated");
         }
     }

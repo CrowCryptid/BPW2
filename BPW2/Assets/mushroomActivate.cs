@@ -18,6 +18,8 @@ public class mushroomActivate : MonoBehaviour
     public GameObject restartbutton;
     public GameObject GOD;
     public ParticleSystem GODTrail;
+    public GameObject sigil;
+    public GameObject Beams;
 
     /*
     public Light Light;
@@ -71,6 +73,8 @@ public class mushroomActivate : MonoBehaviour
                     GOD.SetActive(true);
                     Interact.SetActive(false);
                     GODTrail.GetComponent<ParticleSystem>().Play();
+                    sigil.SetActive(true);
+                    Beams.SetActive(true);
                     Debug.Log("yippie");
                 }
             }
